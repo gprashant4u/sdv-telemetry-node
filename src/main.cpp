@@ -4,7 +4,7 @@
 #include <thread>
 #include <mqtt/async_client.h>
 
-const std::string SERVER_ADDRESS("tcp://test.mosquitto.org:1883");
+const std::string SERVER_ADDRESS("tcp://broker.hivemq.com:1883");
 const std::string CLIENT_ID("sdv_edge_node_01");
 const std::string TOPIC("vehicle/telemetry/v1");
 
